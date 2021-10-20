@@ -1,6 +1,6 @@
 """
-This module contains generic exceptions used by template backends. Although,
-due to historical reasons, the Django template language also internally uses
+This module contains generic exceptions used by templates backends. Although,
+due to historical reasons, the Django templates language also internally uses
 these exceptions, other exceptions specific to the DTL should not be added
 here.
 """
@@ -8,16 +8,16 @@ here.
 
 class TemplateDoesNotExist(Exception):
     """
-    The exception used when a template does not exist. Optional arguments:
+    The exception used when a templates does not exist. Optional arguments:
 
     backend
-        The template backend class used when raising this exception.
+        The templates backend class used when raising this exception.
 
     tried
-        A list of sources that were tried when finding the template. This
+        A list of sources that were tried when finding the templates. This
         is formatted as a list of tuples containing (origin, status), where
         origin is an Origin object or duck type and status is a string with the
-        reason the template wasn't found.
+        reason the templates wasn't found.
 
     chain
         A list of intermediate TemplateDoesNotExist exceptions. This is used to

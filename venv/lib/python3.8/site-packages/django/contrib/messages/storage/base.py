@@ -8,7 +8,7 @@ class Message:
     """
     Represent an actual message that can be stored in any of the supported
     storage classes (typically session- or cookie-based) and rendered in a view
-    or template.
+    or templates.
     """
 
     def __init__(self, level, message, extra_tags=None):

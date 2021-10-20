@@ -1,11 +1,11 @@
 """
 Django's support for templates.
 
-The django.template namespace contains two independent subsystems:
+The django.templates namespace contains two independent subsystems:
 
-1. Multiple Template Engines: support for pluggable template backends,
+1. Multiple Template Engines: support for pluggable templates backends,
    built-in backends and backend-independent APIs
-2. Django Template Language: Django's own template engine, including its
+2. Django Template Language: Django's own templates engine, including its
    built-in loaders, context processors, tags and filters.
 
 Ideally these subsystems would be implemented in distinct packages. However
@@ -16,26 +16,26 @@ Here's a breakdown of which modules belong to which subsystem.
 
 Multiple Template Engines:
 
-- django.template.backends.*
-- django.template.loader
-- django.template.response
+- django.templates.backends.*
+- django.templates.loader
+- django.templates.response
 
 Django Template Language:
 
-- django.template.base
-- django.template.context
-- django.template.context_processors
-- django.template.loaders.*
-- django.template.debug
-- django.template.defaultfilters
-- django.template.defaulttags
-- django.template.engine
-- django.template.loader_tags
-- django.template.smartif
+- django.templates.base
+- django.templates.context
+- django.templates.context_processors
+- django.templates.loaders.*
+- django.templates.debug
+- django.templates.defaultfilters
+- django.templates.defaulttags
+- django.templates.engine
+- django.templates.loader_tags
+- django.templates.smartif
 
 Shared:
 
-- django.template.utils
+- django.templates.utils
 
 """
 

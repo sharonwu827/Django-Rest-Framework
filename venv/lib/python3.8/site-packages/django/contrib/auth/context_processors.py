@@ -1,5 +1,5 @@
 # PermWrapper and PermLookupDict proxy the permissions system into objects that
-# the template system can understand.
+# the templates system can understand.
 
 
 class PermLookupDict:
